@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "Histories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "receive_point": {
+      "default": 0,
+      "type": "integer"
+    },
+    "use_point": {
+      "type": "integer"
+    },
+    "reward": {
+      "type": "string"
+    },
+    "help": {
+      "type": "string"
+    },
+    "id_user": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "date"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "time_text": {
+      "type": "string"
+    }
+  }
+}

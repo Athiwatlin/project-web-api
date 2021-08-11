@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "user_post_id": {
+      "type": "string"
+    },
+    "time": {
+      "type": "datetime"
+    },
+    "get_point": {
+      "type": "integer",
+      "default": 0
+    },
+    "user_post_name": {
+      "type": "string"
+    },
+    "phone_user": {
+      "type": "string"
+    },
+    "line_user": {
+      "type": "string"
+    },
+    "face_user": {
+      "type": "string"
+    },
+    "add_user": {
+      "type": "text"
+    }
+  }
+}
